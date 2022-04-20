@@ -113,5 +113,13 @@ The document has moved
 
 
 ## Передача данных через query string
+[блок по query strings](https://ru.hexlet.io/courses/http_protocol/lessons/query_string/theory_unit)
 
-
+TODOs:
+- [ ] [польза понимания протокола http](https://ru.hexlet.io/courses/http_protocol/lessons/about/theory_unit)
+- [ ] [встроить ссылку по DNS в коснпект](https://ru.hexlet.io/courses/http_protocol/lessons/http_1_0/theory_unit); еще раз просмотреть материал - м.б. что-то не дописал
+- [ ] [блок по отправке форм в конспект](https://ru.hexlet.io/courses/http_protocol/lessons/forms/theory_unit)
+- [ ] [блок по Transfer encoding и chunks](https://ru.hexlet.io/courses/http_protocol/lessons/chunked/theory_unit)
+- [ ] перенаправления
+- [ ] базовая аутентификация
+- [ ] куки
