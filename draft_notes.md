@@ -16,3 +16,9 @@
 python3 -m pip install flask
 python3 -m pip list
 ```
+
+## Обработчик hello
+
+Использованные материалы:
+- [генерация URL и переход по ссылки при нажатии кнопки](https://www.geeksforgeeks.org/how-to-insert-a-javascript-variable-inside-href-attribute/);
+- [HTML Style Guide (indentation)](https://www.w3schools.com/html/html5_syntax.asp);
