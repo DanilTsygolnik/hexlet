@@ -17,7 +17,19 @@ python3 -m pip install flask
 python3 -m pip list
 ```
 
-## Обработчик hello
+## Index page
+
+Чему научился:
+- программирование обработчика статических путей;
+- использование шаблонизатора;
+
+## Обработчики hello и greet
+
+Чему научился:
+- программирование обработчика динамических путей (работа с переменными);
+- использование функции `escape()` для обработки строковых переменных в адресе (защита от XSS-атак)[^xss-atack];
+
+[^xss-atack]: https://owasp.org/www-community/attacks/xss/
 
 Использованные материалы:
 - [генерация URL и переход по ссылки при нажатии кнопки](https://www.geeksforgeeks.org/how-to-insert-a-javascript-variable-inside-href-attribute/);
