@@ -1,0 +1,27 @@
+<html>
+
+<head>
+  <title>Welcome</title>
+  <script>
+    function get_username() {
+        var username = document.getElementById('username').value;
+        return username;
+    }
+  </script>
+</head>
+
+<body>                 
+
+  <h2>Welcome</h2>
+
+  <form>
+    <label for="username">Как тебя завут?</label><br>
+    <input type="text" id="username"><br>
+  </form>
+
+  <input type="button" value="Submit" onclick="location.href='http://127.0.0.1:5000/greet/'+get_username();return false;">
+
+
+</body>
+
+</html>
