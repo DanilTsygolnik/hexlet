@@ -1,11 +1,16 @@
-# Настройка виртуального окружения
+# Цели
+
+- через анализ реального кода лучше понять назначение Flask;
+- связать концепции блока теории по HTTP с теорией по Flask;
+- освоить базовые возможности, которые дает микрофреймворк - научиться кодировать простые обработчики запросов.
+
+# Результаты
+
+## Настройка виртуального окружения
 
 По материалам:
 -[виртуальные окружения (hexlet)](https://ru.hexlet.io/courses/python-setup-environment/lessons/venv/theory_unit) 
 -[How To Install Python 3 and Set Up a Local Programming Environment on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-20-04#step-2-setting-up-a-virtual-environment) 
-
-
-# Этапы разработки
 
 ## Установка flask в виртуальное окружение
 
@@ -17,13 +22,15 @@ python3 -m pip install flask
 python3 -m pip list
 ```
 
-## Index page
+## Разработка
+
+### Index page
 
 Чему научился:
 - программирование обработчика статических путей;
 - использование шаблонизатора;
 
-## Обработчики hello и greet
+### Обработчики hello и greet
 
 Чему научился:
 - программирование обработчика динамических путей (работа с переменными);
@@ -37,7 +44,7 @@ python3 -m pip list
 -[HTML-тэги для формы](https://www.w3schools.com/html/html_forms.asp);
 - [пример использования javascript-функции в форме](https://stackoverflow.com/a/42679710);
 
-## Калькулятор
+### Калькулятор
 
 Использованные материалы:
 - считывание значения выбранной radio-button; [^get-selected-radio-value]
@@ -53,7 +60,6 @@ python3 -m pip list
     1. https://stackoverflow.com/questions/32423594/how-to-use-submit-button-to-go-to-a-url-with-html
     2. https://stackoverflow.com/questions/2701041/how-can-i-set-the-form-action-through-javascript
     3. https://stackoverflow.com/questions/30282714/add-javascript-onclick-to-html-form-submit
-
 
 ### Вопросы
 
