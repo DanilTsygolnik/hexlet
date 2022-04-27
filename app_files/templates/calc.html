@@ -13,8 +13,8 @@
   </head>
 
   <body>
-    <h2>Простой калькулятор</h2>
-    <p> WIP: Простые действия с двумя числами.</p>
+    <h2>Simple calculator</h2>
+    <p>Please, enter two <b>integer</b> numbers and choose the operator.</p>
 
     <form name="calculator">
       <label for="num1">Num1:</label><br>
@@ -22,19 +22,19 @@
       <label for="num2">Num2:</label><br>
       <input type="text" id="num2"><br><br>
       <input type="radio" id="add" name="operator">
-      <label for="add">Сложить Num1 и Num2</label><br>
+      <label for="add">Num1 + Num2</label><br>
       <input type="radio" id="subtract" name="operator">
-      <label for="subtr">Вычесть Num2 из Num1</label><br>
+      <label for="subtr">Num2 - Num1</label><br>
       <input type="radio" id="multiply" name="operator">
-      <label for="subtr">Умножить Num1 на Num2</label><br>
+      <label for="subtr">Num1 * Num2</label><br>
       <input type="radio" id="divide" name="operator">
-      <label for="subtr">Разделить Num1 на Num2</label><br><br>
+      <label for="subtr">Num1 / Num2</label><br><br>
     </form>
 
 <!-- не работает    <input type="button" value="Submit" onclick="location.href=get_result_url();return false;"><br><br> -->
-    <input type="button" value="Результат" onclick="location.href='http://127.0.0.1:5000/'+get_result_url();return false;"><br><br>
+    <input type="button" value="Calculate" onclick="location.href='http://127.0.0.1:5000/'+get_result_url();return false;"><br><br>
 
-    <a href="/">В начало</a>
+    <a href="/">Main page</a>
 
   </body>
 </html>

@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
+@app.route('/index/')
 def index():
     return render_template('index.html')
 
@@ -42,7 +43,7 @@ def calc_result(operator, num1, num2):
             result = num1 / num2
             procedure = f'{num1} * {num2}'
         except ZeroDivisionError:
-            return "Can't divide by zero"
+            return "Can't divide by zero. <a href='/calc'>Go back</a>."
 
     return render_template(
         'calc_result_templ.html',
