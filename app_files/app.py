@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import os
 from markupsafe import escape
 
 app = Flask(__name__)
@@ -49,3 +50,7 @@ def calc_result(operator, num1, num2):
         'calc_result_templ.html',
         procedure = procedure,
         result = result)
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
