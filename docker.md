@@ -47,3 +47,7 @@ Share images, automate workflows, and more with a free Docker ID:
 For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
+
+## Базовая работа с containers и images
+
+[![asciicast](https://asciinema.org/a/k9eFdTip7Q3PKFZYZnSUiD2HQ.svg)](https://asciinema.org/a/k9eFdTip7Q3PKFZYZnSUiD2HQ)
