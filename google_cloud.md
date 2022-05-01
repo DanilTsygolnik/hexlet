@@ -1,7 +1,3 @@
-# Intro
-
-В рамках учебной практики я создаю web-приложения. Помимо отчетов в репозитории хотелось бы предоставить любому заинтересованному человеку опробовать реализованный функционал самостоятельно. Так возникла задача деплоя на хостинг, чтобы мои приложения стали доступны онлайн.
-
 # Google Cloud
 
 Первой мыслью были [Github Pages](https://docs.github.com/en/pages), но сервис поддерживает только статические страницы, причем к одному аккаунту можно привязать только один сайт.[^gh-pages-single-site]
@@ -49,17 +45,31 @@ Google выбрал после беглого просмотра доков - п
 - [Concurrency](https://cloud.google.com/run/docs/about-concurrency); 
 - [Cloud Run Quotas and Limits](https://cloud.google.com/run/quotas) 
 
-Чтобы понимать, как одно приложение будет использовать ресурсы, 
+# Ссылки на материалы для старта
 
-Об использовании ресурсов
+[Creating and managing projects](https://cloud.google.com/resource-manager/docs/creating-managing-projects)
+
+[Deploy a Python service to Cloud Run (GC console in browser)](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-python-service)
+
+[Installing the gcloud CLI (офф. доки)](https://cloud.google.com/sdk/docs/install#linux)
+
+[Setting Up Google Cloud SDK For GCP On Arch/Manjaro Linux](https://dev.to/nabbisen/setting-up-google-cloud-sdk-of-gcp-on-archmanjaro-linux-19mk)
+
+[Setting Up Your Environment (офф. доки)](https://cloud.google.com/run/docs/setup)
+
+[Деплой через gcloud cli из исходников](https://cloud.google.com/run/docs/deploying-source-code)
+
+[Deploy a container to Cloud Run](https://cloud.google.com/run/docs/quickstarts/deploy-container)
 
 
 # Прочие материалы
+
+[Большое FAQ на Github по Google Cloud](https://github.com/ahmetb/cloud-run-faq)
+
+[Статья-гайд по хостингку веб-приложений на Google Cloud](https://medium.com/google-cloud/hosting-web-applications-on-google-cloud-an-overview-46f5605eb3a6)
 
 [Deploy Web Applications Automatically Using GitHub Webhooks](https://www.toptal.com/devops/deploy-web-applications-automatically-using-github-webhooks)
 
 [Turning a GitHub page into a Progressive Web App](https://christianheilmann.com/2022/01/13/turning-a-github-page-into-a-progressive-web-app/)
 
 [Как оставаться в рамках Free Tier](https://www.infoworld.com/article/3585633/how-to-make-the-most-of-the-google-cloud-free-tier.html)
-
-[Хостинг нескольких сайтов на одном Google Cloud Computer Engine](https://medium.com/google-cloud/hosting-multiple-websites-on-single-google-cloud-compute-engine-9768e2f02c6d)
