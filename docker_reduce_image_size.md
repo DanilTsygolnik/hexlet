@@ -1,6 +1,21 @@
-## Как уменьшить размер docker image
+# Как уменьшить размер docker image
 
-Привлекательным решением выглядит утилита [docker-slim](https://dockersl.im/install.html).
+## Image на основе Python Alpine
+
+Текущий рабочий вариант, по [статье](https://blog.realkinetic.com/building-minimal-docker-containers-for-python-applications-37d0272c52f3).
+
+[Подробнее про Alpine](https://hub.docker.com/_/alpine/).
+
+Результаты для сравнения:
+```
+REPOSITORY                     TAG           IMAGE ID       CREATED          SIZE
+daniltsygolnik/catnip-alpine   latest        efbd7806861f   12 seconds ago   59MB
+daniltsygolnik/catnip          latest        ce15f39a9088   2 days ago       700MB
+python                         3.10-alpine   2c167788a673   11 days ago      47.8MB
+python                         3-onbuild     292ed8dee366   3 years ago      690MB
+```
+
+## Утилита [docker-slim](https://dockersl.im/install.html).
 
 Простая установка[^docker-slim-install]
 ```
